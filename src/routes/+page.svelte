@@ -10,17 +10,17 @@
 
 <Fullpage class="text-brown-5">
 	<FullpageSection title="Home">
-		<div class="flex flex-col justify-center min-h-screen items-center gap-y-28 bg-brown-1 w-full">
+		<div class="flex flex-col justify-center min-h-screen items-center gap-y-16 bg-brown-1 w-full">
 			<div class="flex flex-col items-center">
-				<img src={logo} class="w-96" alt="logo" />
+				<img src={logo} class=" w-80 md:w-96" alt="logo" />
 				<div>{'{YOUR_LOGO}'}</div>
 			</div>
 			<div class="text-8xl font-bold text-[#fff]">mc²</div>
 		</div>
 	</FullpageSection>
 	<FullpageSection title="Description">
-		<div class="flex min-h-screen items-center bg-brown-2 px-24 gap-x-8">
-			<div class="basis-1/3">
+		<div class="flex min-h-screen items-center bg-brown-2 md:px-24 px-10 gap-x-8 ">
+			<div class="basis-1/3 hidden md:block">
 				<img src={burst} alt="coffee" />
 				<div class="text-center">{`{REPLACE_WITH_COFFEE_CLIPART}`}</div>
 			</div>
@@ -29,7 +29,7 @@
 					<div class="text-6xl font-bold">E=mc²</div>
 					<div class="text-xl font-semibold">Energy = Milk x Coffee²</div>
 				</div>
-				<div class="text-lg">
+				<div class="md:text-lg text-base ">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mauris nisl, finibus id
 					metus at, faucibus viverra velit. Proin faucibus, dolor et consectetur rutrum, lectus odio
 					cursus nisl, ut vulputate tortor erat nec mi. Quisque feugiat nisl tortor. Etiam eget
