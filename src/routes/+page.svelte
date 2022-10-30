@@ -29,7 +29,7 @@
 					<div class="text-6xl font-bold">E=mc²</div>
 					<div class="text-xl font-semibold">Energy = Milk x Coffee²</div>
 				</div>
-				<div class="md:text-lg text-base ">
+				<div class="md:text-lg text-base">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mauris nisl, finibus id
 					metus at, faucibus viverra velit. Proin faucibus, dolor et consectetur rutrum, lectus odio
 					cursus nisl, ut vulputate tortor erat nec mi. Quisque feugiat nisl tortor. Etiam eget
@@ -44,7 +44,7 @@
 	</FullpageSection>
 	<FullpageSection title="Description">
 		<div class="flex flex-col justify-center min-h-screen items-center bg-brown-1 w-full">
-			<div class="text-6xl font-bold">COMING SOON</div>
+			<div class="text-6xl font-bold px-10">COMING SOON</div>
 		</div>
 	</FullpageSection>
 </Fullpage>
